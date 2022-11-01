@@ -18,16 +18,18 @@
             Harsh
         </a>
 
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="nav-menu">
             <li><a class="active" href="#maincon"><i class="fa fa-home" aria-hidden="true"></i>
-                Home</a></li>
+                Home</a><span onclick="closeNav()" class="icon-menu1"><i class="fa fa-close"></i></span></li>
             <li><a href="#about-con"><i class="fa fa-male" aria-hidden="true"></i>
                 About</a></li>
             <li><a href="#services"><i class="fa fa-code-fork" aria-hidden="true"></i>
                 Work</a></li>
             <li><a href="#contact-me"><i class="fa fa-mobile" aria-hidden="true"></i>
                 Contact</a></li>
+                
         </ul>
+        <span onclick="openNav()" class="icon-menu"><i class="fa fa-bars"></i></span>
     </nav>
 
     <div class="text-con">
@@ -36,16 +38,16 @@
         <p>I am a Website Designer and <br> Graphics Designer</p>
         <button class="hire-btn"><i class="fa fa-gratipay" aria-hidden="true"></i>
             Hire Me</button>
-        <button class="cv-btn"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+        <button  class="cv-btn"><i class="fa fa-cloud-download" aria-hidden="true"></i>
             Download CV</button>
     </div>
-    <img class="spark" src="https://github.com/hyperdgx/Portfolio-Website/blob/main/tumblr_mhtt5ts8BK1rkfeyuo1_250.gif" alt="eorror" >
+    <img class="spark" src="/images/tumblr_mhtt5ts8BK1rkfeyuo1_250.gif" alt="eorror" >
 
 
 </section>
 
 <section class="about-con" >
-     <img id="about-con" src="4540cfd8909197c2559dd30a7234f63e.gif" alt="">
+     <img class="spark2" id="about-con" src="/images/4540cfd8909197c2559dd30a7234f63e.gif" alt="">
      <div class="about-txt">
         <p><i class="fa fa-address-card" aria-hidden="true"></i>
 
@@ -115,5 +117,6 @@
     <p class="copyright">Copyright &copy;2022, Designed by <span>HyperDGX</span></p>
  </footer>
 
+ <script src="index.js"></script>
 </body>
 </html>
